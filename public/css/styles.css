@@ -1,11 +1,16 @@
+body {
+  background: rgb(36,0,0);
+  background: linear-gradient(90deg, rgba(36,0,0,1), rgba(20,20,20,1), rgba(0,212,255,1));
+}
 .jumbotron {
-  background-image: url(/images/background1.jpg);
+  background-image: url(/images/background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   color: #EEE;
 }
 .jumbotron .container {
-  height: 350px;
+  height: 700px;
 }
 
 .inline-header {
@@ -14,3 +19,15 @@
   margin-right: 12px;
 }
 
+#header-text {
+  text-align: center;
+}
+
+#header-text h1 {
+  padding-top: 225px;
+  font-size: 6em;
+}
+
+#header-text p {
+  font-size: 3em;
+}
